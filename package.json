@@ -1,0 +1,22 @@
+{
+  "name": "rollup-js-api-example",
+  "version": "1.0.0",
+  "main": "build/es6/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node watch.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "lit-element": "^2.2.1",
+    "rollup": "^1.20.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "systemjs": "^6.0.0"
+  }
+}
